@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Lemonada:wght@300..700&display=swap');
+*{
+    /* الشكر لماما */
+    margin: 0;
+    padding:0;
+}
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: end;
+    float: right;
+    width: 100%;
+    background-color: #024481;
+    position: sticky;
+    z-index: 999;   
+    position: fixed;
+    top: 0;
+
+     
+}
+body{
+    background-color: rgb(220, 220, 220);
+    font-family: "Lemonada",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    
+}
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+   
+     
+}
+header li{
+    display: block;
+    margin-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+/* max-block-size: 100% ; */
+    
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+#img{
+    margin-right: 20px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#fr{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+header a:hover{
+    color: orange;
+    /* border-radius: 40px; */
+}
+.h {
+    
+    margin-top: 52px;
+    /* width: 20px; */
+    
+}
+.h img{
+    max-width: 100%;
+}
+
+
+
+/* header li.g a{color: orange;} */
+.a{
+    background-color:white;
+    /* width: 300px; */
+    max-width: 20%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    font-size: 10px;
+    /* display: inline; */
+    border: 2px solid rgb(200, 200,200);
+    /* max-height: 600px; */
+    /* display: block; */
+
+}
+.a .p1{
+    font-size: 10px;
+    /* margin-left: 170px; */
+    /* float: right; */
+    color: #888;
+    max-width: 100%;
+    text-align: right;
+   /* padding: 20px; */
+   /* background-color: #888; */
+   
+}
+
+.a .p11{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.a  a{
+    display: block;
+    background-color: white;
+    padding: 10px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: #024481;
+    /* margin-bottom: 0px; */
+    align-items: end;
+    
+   
+}
+.im1{
+    max-width: 100%;
+    
+}
+.a a:hover{
+    background-color: #888;
+    border-radius: 10px;
+}
+ .ma{
+    display:flex;
+    flex-wrap: wrap;
+/* display:flex; */
+/* float: right; */
+}
+    /* float: left; */
+    /*  */
+    /* max-width: 100px; */
+/* } */
+#h1{
+    border-right: 10px solid #024481;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+
+}#h2{
+    border-right: 10px solid #024481;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+
+
+}
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    
+  }
+  
+   
+  
+    
+  
+  
+  li.dropdown {
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* font-size: 10px; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 10px;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+  }
+
+  .log img{
+    max-width: 90px;
+    margin-right: 20px ;
+
+    /* height: 100px; */
+
+  }
+  .log{
+    /* float: right; */
+    /* display: flex; */
+    text-align: right;
+    /*  */
+    background-color: white;
+
+  }#h3{
+    border-right: 10px solid #024481;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+  }
+       /* تنسيق dropdown-content */
+.dropdown-content {
+    display: grid; /* استخدام grid لتقسيم الأعمدة */
+    grid-template-columns: repeat(2, 1fr); /* عمودان متساويان */
+    grid-gap: 10px; /* مسافة بين العناصر */
+    padding: 10px; /* فراغ داخلي */
+    background-color: #f9f9f9; /* لون خلفية القائمة */
+    position: absolute;
+    z-index: 1;
+    width: 300px; /* عرض القائمة */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* ظل لرفع القائمة */
+    border-radius: 5px; /* جعل الحواف مستديرة */
+  }
+  
+  /* تنسيق القائمة المنسدلة */
+  .dropdown-content {
+    display: none; /* إخفاء القائمة افتراضيًا */
+    position: absolute; /* جعلها تظهر بشكل منفصل */
+    background-color: #f9f9f9;
+    z-index: 1;
+    grid-template-columns: repeat(2, 1fr); /* عمودان */
+    grid-gap: 10px; /* المسافة بين العناصر */
+    padding: 10px;
+    width: 300px; /* عرض القائمة */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  /* إظهار القائمة عند التمرير على العنصر الرئيسي */
+  .dropdown:hover .dropdown-content {
+    display: grid; /* تفعيل عرض القائمة */
+  }
+  
+  /* تنسيق الروابط داخل القائمة */
+  .dropdown-content a {
+    display: flex; /* ترتيب الصورة والنص بشكل أفقي */
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd; /* تغيير لون العنصر عند التمرير */
+  }
+  
+  /* تنسيق الصور داخل العناصر */
+  .dropdown-content a img {
+    margin-right: 10px; /* فراغ بين الصورة والنص */
+  }
+  
